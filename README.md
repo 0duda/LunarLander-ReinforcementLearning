@@ -1,6 +1,6 @@
 # Lunar Lander - Reinforcement Learning Project
 
-This project implements Reinforcement Learning agents for the **Lunar Lander** environment from Gymnasium, using the **PPO (Proximal Policy Optimization)** algorithm from Stable-Baselines3. It project was developed as part of the Introduction of Intelligent and Autonomous Systems course at FCUP (BSc in Artificial Intelligence and Data Science, University of Porto, 2025/2026). The goal is to train RL agents to perform successful landings in the Lunar Lander environment, with different reward variations and constraints.
+This project implements Reinforcement Learning agents for the **Lunar Lander** environment from Gymnasium, using the **PPO (Proximal Policy Optimization)** algorithm from Stable-Baselines3. It was developed as part of the Introduction of Intelligent and Autonomous Systems course at FCUP (BSc in Artificial Intelligence and Data Science, University of Porto, 2025/2026). The goal is to train RL agents to perform successful landings in the Lunar Lander environment, with different reward variations and constraints.
 
 ### Authors
 
@@ -47,8 +47,8 @@ LunarLander-ReinforcementLearning/
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/your-username/submission_lunarlander.git
-cd submission_lunarlander
+git clone https://github.com/0duda/LunarLander-ReinforcementLearning.git
+cd LunarLander-ReinforcementLearning
 ```
 
 2. Install dependencies:

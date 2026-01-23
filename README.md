@@ -2,11 +2,13 @@
 
 This project implements Reinforcement Learning agents for the **Lunar Lander** environment from Gymnasium, using the **PPO (Proximal Policy Optimization)** algorithm from Stable-Baselines3. It was developed as part of the Introduction of Intelligent and Autonomous Systems course at FCUP (BSc in Artificial Intelligence and Data Science, University of Porto, 2025/2026). The goal is to train RL agents to perform successful landings in the Lunar Lander environment, with different reward variations and constraints.
 
+
 ### Authors
 
 - Carolina Proença
 - Eduarda Neves
 - Maria Morais
+- 
 
 ### Main Features
 
@@ -15,6 +17,7 @@ This project implements Reinforcement Learning agents for the **Lunar Lander** e
 - **Framework**: Stable-Baselines3
 - **Reward Shaping**: Custom implementations for soft landing, precision landing, and combinations
 - **Constraints**: Various tested constraints (wind, random force, moving helipad, etc.)
+
 
 ## Project Structure
 
@@ -34,6 +37,7 @@ LunarLander-ReinforcementLearning/
 └── README.pdf                         # Detailed project documentation (for submission)
 ```
 
+
 ## Requirements
 
 - Python 3.8+
@@ -42,6 +46,7 @@ LunarLander-ReinforcementLearning/
 - Box2D
 - NumPy
 - TensorBoard (for log visualization)
+  
 
 ## Installation
 
@@ -57,6 +62,7 @@ pip install gymnasium[box2d]
 pip install stable-baselines3[extra]
 pip install tensorboard
 ```
+
 
 ## How to Use
 
@@ -77,6 +83,7 @@ models_dir = "models/YourModel"  # Your model name
 python train.py
 ```
 
+
 ### Visualize a Trained Agent
 
 1. Edit `visual.py` to load the desired model
@@ -85,6 +92,7 @@ python train.py
 python visual.py
 ```
 
+
 ### Monitor Training with TensorBoard
 
 ```bash
@@ -92,6 +100,7 @@ tensorboard --logdir=./logs
 ```
 
 Access `http://localhost:6006` in your browser.
+
 
 ## Available Models
 
@@ -109,6 +118,7 @@ The project includes several trained models with different configurations:
 | **Soft+Precision+1M** | Trained with 1M timesteps |
 | **Soft+Precision+Bandeiras** | With flags system |
 
+
 ## Implemented Constraints
 
 The project explores different constraints to test agent robustness:
@@ -122,6 +132,7 @@ To evaluate a model with constraints:
 ```bash
 python evaluation_of_constraints.py
 ```
+
 
 ## Results Visualization
 

@@ -8,7 +8,7 @@ This project implements Reinforcement Learning agents for the **Lunar Lander** e
 - Carolina Proença
 - Eduarda Neves
 - Maria Morais
-- 
+
 
 ### Main Features
 
@@ -18,7 +18,7 @@ This project implements Reinforcement Learning agents for the **Lunar Lander** e
 - **Reward Shaping**: Custom implementations for soft landing, precision landing, and combinations
 - **Constraints**: Various tested constraints (wind, random force, moving helipad, etc.)
 
-
+---
 ## Project Structure
 
 ```
